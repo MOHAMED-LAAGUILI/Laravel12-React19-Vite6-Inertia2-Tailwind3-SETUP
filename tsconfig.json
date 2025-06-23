@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["resources/js/*"],
+        "@components/*": ["resources/js/components/*"],
+        "@Pages/*": ["resources/js/Pages/*"],
+        "@Lib/*": ["resources/js/lib/*"],
+        "@Layout/*": ["resources/js/layout/*"],
+        "@i18n/*": ["resources/js/i18n/*"]
+      }
+    },
+    "include": ["resources/js"]
+  }
+  
