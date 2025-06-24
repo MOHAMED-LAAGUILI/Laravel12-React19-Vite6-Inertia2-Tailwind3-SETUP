@@ -1,15 +1,15 @@
 import {
-  Calendar,
   House,
+  UserCheck,
 } from "lucide-react";
 
 
 const baseMenuConfig = [
   { name: "Home", icon: <House size={15} /> },
   {
-    title: "Calendars",
-    icon: <Calendar size={15} />,
-    items: ["Holidays Calendar", "Leaves Calendar"],
+    title: "Admin",
+    icon: <UserCheck size={15} />,
+    items: ["Users", "Roles","Permissions"],
   },
  
 ];

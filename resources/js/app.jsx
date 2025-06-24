@@ -1,8 +1,8 @@
 import './bootstrap';
+import './i18n';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { createInertiaApp } from '@inertiajs/inertia-react';
-import './i18n';
 import { InertiaProgress } from '@inertiajs/progress';
 
 InertiaProgress.init({

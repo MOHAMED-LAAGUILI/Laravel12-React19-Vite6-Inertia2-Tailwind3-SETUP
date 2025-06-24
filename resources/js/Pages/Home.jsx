@@ -1,5 +1,5 @@
 import React from "react";
-import { Head, usePage } from "@inertiajs/inertia-react";
+import { usePage } from "@inertiajs/inertia-react";
 import Layout from "@Layout";
 import { useTranslation } from "react-i18next";
 

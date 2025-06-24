@@ -121,7 +121,7 @@ export default function MinimizedAside({
                 ) : (
                   <>
                     <Link
-                      to={section.path}
+                      href={section.path || '/'}
                       className={twMerge(
                         "flex items-center justify-center p-2 rounded-lg transition-colors duration-200 w-full",
                         isActive
@@ -249,7 +249,7 @@ export default function MinimizedAside({
               return (
                 <Link
                   key={idx}
-                  to={item.path}
+                  href={item.path || '/'}
                   className={twMerge(
                     "flex items-center px-3 py-2 transition-colors duration-200",
                     isActive

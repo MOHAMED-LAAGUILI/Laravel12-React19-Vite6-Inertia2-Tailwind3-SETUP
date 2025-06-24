@@ -89,15 +89,15 @@ export default function Layout({ children, title }) {
 
   const development = import.meta.env.VITE_ENVIRONMENT === "development";
  
-  const { appName, appLogo, appVersion } = usePage().props;
+  const { appName } = usePage().props;
 
   const AppName = appName;
-  const AppLogo = appLogo;
-  const AppVersion = appVersion;
+  const AppLogo = "userImage";
+  const AppVersion = "0";
   const itemRefs = useRef({});
   const popupRef = useRef(null);
   const hoverTimeoutRef = useRef(null);
-  const userImage = "https://images.unsplash.com/photo-1506794778202-cad84cf45f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80";
+  const userImage = "https://cdn-icons-png.flaticon.com/512/149/149071.png";
   const menuItems = useMenuItems();
 
   // Function to register refs for menu items minimized
